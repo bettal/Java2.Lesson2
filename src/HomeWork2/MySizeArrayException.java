@@ -7,9 +7,6 @@ public class MySizeArrayException extends Exception {
         return size;
     }
 
-    public MySizeArrayException() {
-    }
-
     public MySizeArrayException(String message, int size) {
         super(message + size);
         this.size = size;
